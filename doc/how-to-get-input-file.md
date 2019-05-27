@@ -10,6 +10,6 @@ your own LinkedIn profile.
   * Go to **Download your data** section
   * Tick **The works** radial button
   * Click on **Request archive** section
-  * Wait ~10min for LinkedIn email with your data attached
-  * Download and unzip the file
-  * Move **Connections.csv** file to **data** project dir
+  * Wait ~ 10min for LinkedIn email with the download link
+  * Download and unzip the requested file
+  * Move the **Connections.csv** file to **data** project dir
