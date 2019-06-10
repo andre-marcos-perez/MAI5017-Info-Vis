@@ -6,11 +6,8 @@ class User:
         self.company = company
         self.position = position
         self.industry = ""
-        self.city = ""
-        self.state = ""
-        self.country = ""
+        self.location = ""
 
     def __str__(self):
         return self.forename + "," + self.surname + "," + self.company + \
-            "," + self.position + "," + self.industry + "," + self.city + \
-            "," + self.state + "," + self.country
+            "," + self.position + "," + self.industry + "," + self.location

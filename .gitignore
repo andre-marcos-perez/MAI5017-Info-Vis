@@ -1,6 +1,9 @@
 # LinkedIn data
 
-data/Connections.csv
+data/Conn*
+data/output.csv
+data/account.csv
+data/scraped/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
