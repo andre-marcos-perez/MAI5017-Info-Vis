@@ -14,7 +14,7 @@ def main():
         data = pd.read_csv(INP_FILENAME)
         data = list(data["Company"].unique())
         for company_name in data:
-            company = Company(company_name)
+            company = Company(company_name.strip())
             companies.append(company)
         for filename in listdir(DAT_DIR):
             if filename.endswith(".html"):
@@ -39,7 +39,7 @@ def main():
                                     continue
                         print(company)
         with open(OUT_FILENAME, mode="w", encoding="utf-8") as file:
-            file.write("Company,Industry\n")
+            file.write("Company;Industry\n")
             for company in companies:
                 file.write("%s\n" % company)
     except Exception as e:

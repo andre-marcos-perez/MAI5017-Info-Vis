@@ -5,4 +5,4 @@ class Company:
         self.industry = ""
 
     def __str__(self):
-        return self.name + "," + self.industry
+        return self.name + ";" + self.industry
