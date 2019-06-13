@@ -1,10 +1,9 @@
 from linkedin.User import User
-from linkedin.webscraper import scraper
+from linkedin.user_scraper import user_scraper
 
 def main():
 
     INP_FILENAME = "data/Connections.csv"
-    OUT_FILENAME = "data/output.csv"
     ACC_FILENAME = "data/account.csv"
 
     users = list()
@@ -21,11 +20,7 @@ def main():
         with open(ACC_FILENAME, mode="r", encoding="utf-8") as file:
             line = file.readline()
             line = line.split(",")
-        scraper(users, line[0], line[1])
-        # with open(OUT_FILENAME, mode="w", encoding="utf-8") as file:
-        #         file.write("Forename,Surname,Company,Position,Industry,Location\n")
-        #         for user in users:
-        #             file.write("%s\n" % user)
+        user_scraper(users, line[0], line[1])
     except Exception as e:
         print(e)
 
