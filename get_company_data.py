@@ -28,7 +28,7 @@ def main():
                                 try:
                                     company_name = element.find_all(attrs={"class": "search-typeahead-v2__hit-text"})[0].getText().strip()
                                     company_industry = element.find_all(attrs={"class": "search-typeahead-v2__hit-subtext"})[0].getText().strip()
-                                    if company_name in company.name:
+                                    if company_name.lower() in company.name.lower():
                                         if "School" in company_industry:
                                             company.industry = "School"
                                             break
