@@ -1,0 +1,34 @@
+.primary-text {
+  font-family: Saira Extra Condensed, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.secondary-text {
+  font-family: Saira Extra Condensed, serif;
+  font-weight: 700;
+}
+.default-margin {
+  margin-top:0px;
+  margin-bottom:24px !important;
+}
+.smallest-margin {
+  margin-top:0px;
+  margin-bottom:6px !important;
+}
+.small-margin {
+  margin-top:0px;
+  margin-bottom:12px !important;
+}
+.big-margin {
+  margin-top:0px;
+  margin-bottom:36px !important;
+}
+.biggest-margin {
+  margin-top:0px;
+  margin-bottom:220px !important;
+}
+.topleft-btn {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+}

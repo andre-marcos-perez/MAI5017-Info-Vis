@@ -3,6 +3,7 @@
 data/*.csv
 data/users/*.html
 data/companies/*.html
+doc/ge*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

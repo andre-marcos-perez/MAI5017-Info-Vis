@@ -1,0 +1,58 @@
+.accent-color {
+  background-color: #0077B5 !important;
+}
+.accent-text-color {
+  color: #0077B5 !important;
+}
+.accent-blockquote-color {
+  border-color:#0077B5 !important;
+}
+.primary-color {
+  background-color: #343a40 !important;
+}
+.primary-text-color {
+  color: #343a40 !important;
+}
+.primary-blockquote-color {
+  border-color:#343a40 !important;
+}
+.gold-color {
+  background-color: #C9B037 !important;
+}
+.silver-color {
+  background-color: #B4B4B4 !important;
+}
+.bronze-color {
+  background-color: #6A3805 !important;
+}
+.spinner-layer {
+  border-color: #0077B5 !important;
+}
+.input-field label {
+ color: #343a40 !important;
+}
+.input-field input:focus + label {
+ color: #0077B5 !important;
+}
+.input-field input:focus {
+ border-bottom: 1px solid #0077B5 !important;
+ box-shadow: 0 1px 0 0 #0077B5 !important;
+}
+.input-field input.valid {
+  border-bottom: 1px solid #343a40 !important;
+  box-shadow: 0 1px 0 0 #343a40 !important;
+}
+.input-field textarea {
+  color: #343a40 !important;
+}
+.input-field textarea:focus + label {
+  color: #0077B5 !important;
+}
+.input-field textarea:focus {
+  border-bottom: 1px solid #0077B5 !important;
+  box-shadow: 0 1px 0 0 #0077B5 !important;
+}
+.input-field textarea.valid {
+  border-bottom: 1px solid #343a40 !important;
+  box-shadow: 0 1px 0 0 #343a40 !important;
+}
